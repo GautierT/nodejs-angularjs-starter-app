@@ -1,0 +1,45 @@
+{
+  "name": "node-js-angular-js-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate Node.js app using Express 4 server-side and AngularJs client-side",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "connect-timeout": "^1.7.0",
+    "del": "^2.0.2",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "forever": "^0.15.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-useref": "^1.3.0",
+    "morgan": "^1.6.1",
+    "request": "^2.62.0",
+    "rollbar": "^0.5.8",
+    "run-sequence": "^1.1.2",
+    "winston": "^1.0.1"
+  },
+  "engines": {
+    "node": "4.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GautierThiriez/nodejs-angularjs-starter-app"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "angularjs"
+  ],
+  "license": "MIT"
+}
