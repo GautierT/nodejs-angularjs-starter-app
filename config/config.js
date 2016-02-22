@@ -10,13 +10,6 @@ var defaults = {
     root: path.normalize(__dirname + '/..'),
     app : {
         name : 'A boilerplate Node.js app using Express 4 server-side and AngularJs client-side'
-    },
-    soundcloud: {
-        clientID : '##',
-        clientSecret : '##'
-    },
-    rollbar : {
-        keyAPI : '##'
     }
 };
 

@@ -24,7 +24,6 @@
     "gulp-useref": "^1.3.0",
     "morgan": "^1.6.1",
     "request": "^2.62.0",
-    "rollbar": "^0.5.8",
     "run-sequence": "^1.1.2",
     "winston": "^1.0.1"
   },

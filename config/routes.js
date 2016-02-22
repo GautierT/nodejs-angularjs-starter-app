@@ -16,10 +16,6 @@ module.exports = function (app) {
         res.sendFile( config.root +  '/public/views/index.html')
     });
 
-    if (env != 'development') {
-        app.use(rollbar.errorHandler(config.rollbar.keyAPI));
-    }
-
     app.use(function (err, req, res, next) {
         var url = req.protocol + '://' + req.get('host') + req.originalUrl;
         console.error('Error Handler : ', err, ' / Url : ' + url + ' / err.stack : ', err.stack);
