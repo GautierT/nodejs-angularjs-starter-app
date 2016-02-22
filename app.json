@@ -1,0 +1,7 @@
+{
+  "name": "Starter Node Express Angular",
+  "description": "A boilerplate Node.js app using Express 4 server-side and AngularJs client-side.",
+  "repository": "https://github.com/GautierThiriez/node-js-angular-js-boilerplate",
+  "keywords": ["nodejs", "expressjs", "static", "angularjs"],
+  "image": "heroku/nodejs"
+}
