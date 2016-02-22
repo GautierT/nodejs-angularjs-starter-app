@@ -10,8 +10,8 @@ A boilerplate Node.js app using Express 4 server-side and AngularJs client-side.
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ git clone git@github.com:GautierThiriez/nodejs-angularjs-starter-app.git # or clone your own fork
+$ cd nodejs-angularjs-starter-app
 $ npm install
 $ npm start
 ```
